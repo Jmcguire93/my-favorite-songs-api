@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   post "/songs", controller: "songs", action: "create"
 
+  patch "/songs/:id", controller: "songs", action: "update"
+
 end
