@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get "/songs/:id", controller: "songs", action: "show"
 
+  post "/songs", controller: "songs", action: "create"
+
 end
